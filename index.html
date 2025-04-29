@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Relatório de Gravação</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+  <div class="container py-5">
+    <h2 class="text-center text-success mb-4">📋 Gerar Relatório de Gravação</h2>
+
+    <form method="POST" enctype="multipart/form-data">
+      <div class="mb-3">
+        <label for="file" class="form-label">Selecione a planilha .xlsx:</label>
+        <input class="form-control" type="file" id="file" name="file" accept=".xlsx" required>
+      </div>
+      <button class="btn btn-success" type="submit">Gerar Relatório</button>
+    </form>
+  </div>
+</body>
+</html>
